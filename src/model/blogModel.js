@@ -17,7 +17,7 @@ const blogSchema = new mongoose.Schema(
       type: objectId,
       trim: true,
       ref: "Author",
-      reuired: true,
+      required: true,
     },
     tags: [{ type: String, trim: true }],
     category: { type: String, trim: true, required: true },
